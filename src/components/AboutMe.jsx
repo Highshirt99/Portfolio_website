@@ -5,8 +5,8 @@ import image from "../assets/about.svg";
 
 const AboutMe = () => {
   return (
-    <div className="p-12 border-b-[2px] border-b-btn tracking-wider bg-background text-base flex flex-col lg:flex-row lg:justify-between">
-      <div className=" lg:w-[40%]">
+    <div className="p-12 border-b-[2px] border-b-btn tracking-wider bg-background text-base flex flex-col lg:flex-row lg:justify-between" >
+      <div className=" lg:w-[40%]" data-aos = "slide-down">
         {/* <Typewriter
        
         options={{
@@ -18,7 +18,7 @@ const AboutMe = () => {
         }}/> */}
         <p className="font-[700] text-white text-[25px]  leading-8">
           Hi, I'm{" "}
-          <span className="text-body text-[25px] font-bold">Aishat </span>,{" "}
+          <span className="text-body text-[25px] font-bold">Aishat </span>,
           <br /> a<span className="ml-2 text-body ">self-taught</span> front-end
           developer.
         </p>
@@ -42,7 +42,7 @@ const AboutMe = () => {
             See my work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1eiONuaQQKM238dJSpYNj_aZ_kwKDDmaQ/view?usp=share_link"
+            href="https://drive.google.com/file/d/1f9ygpri_0BPfrDVq-7gqwGjJc8aNe00V/view?usp=share_link"
             className="p-2 cursor-pointer bg-light"
           >
             Download CV
@@ -50,7 +50,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <img src={image} alt="" className="lg:w-[40%]" />
+      <img src={image} alt="" className="lg:w-[40%]"  data-aos = "slide-right"/>
     </div>
   );
 };
