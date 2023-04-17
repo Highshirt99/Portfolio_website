@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal-overlay {
+    background-color: rgba(95, 100, 158, 0.45);
+  }
+
+  .swal-title{
+    color: green;
+    font-family: Anuphan;
+  }
+  .swal-text{
+    font-weight: 800;
+    font-family: Anuphan;
+  }
+  .swal-button{
+    background: #08143d;
+    font-family: Anuphan;
+  }
