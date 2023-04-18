@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import  Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { FaBars } from "react-icons/fa";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import NavBarDesktop from "./components/NavBarDesktop";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   }
   return (
     <div className="min-h-screen font-bodyFont">
-        <div className="bg-lightBg p-[1rem] sticky top-0 ">
+        <div className="bg-lightBg p-[1rem] sticky top-0 z-[100000]">
           <NavBarDesktop/>
       <div className=" text-white cursor-pointer text-[1rem] lg:hidden">
        

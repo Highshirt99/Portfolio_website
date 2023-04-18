@@ -5,7 +5,7 @@ import { options } from "./NavLists";
 
 const NavBar = ({ handleClose }) => {
   return (
-    <div className="lg:hidden bg-white min-h-screen w-[60%] md:w-[30%]  p-4 text-[1.5rem] fixed top-0 bottom-0 left-0 ">
+    <div className="z-[1000000] lg:hidden bg-white min-h-screen w-[60%] md:w-[30%]  p-4 text-[1.5rem] fixed top-0 bottom-0 left-0 ">
       <div className="relative">
         <AiOutlineClose
           onClick={handleClose}
