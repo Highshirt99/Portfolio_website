@@ -4,7 +4,7 @@ import multisteps from "../assets/multishot.PNG";
 import todo from "../assets/todoshot.PNG";
 
 
-export const Projects = () => {
+ const Projects = () => {
   const projects = [
     {
       name: "Lostfinder",
@@ -31,10 +31,10 @@ export const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="p-12 bg-lightBg">
+    <div id="projects" className="p-[2rem] lg:p-[6rem] bg-lightBg">
       <div className="flex items-center content-center gap-4 my-3">
         <div className="w-[50px] h-[4px] bg-body"></div>
-        <p className="py-2 font-bold text-white">Skills & Tools</p>
+        <p className="py-2 font-bold text-white">Projects</p>
       </div>
       <p className="text-white font-bold text-[18px]">
         Hand-picked projects for you to see.
@@ -63,3 +63,5 @@ export const Projects = () => {
     </div>
   );
 };
+
+export default Projects;

@@ -5,8 +5,11 @@ import image from "../assets/about.svg";
 
 const AboutMe = () => {
   return (
-    <div className="p-12 border-b-[2px] border-b-btn tracking-wider bg-background text-base flex flex-col lg:flex-row lg:justify-between" >
-      <div className=" lg:w-[40%]" data-aos = "slide-down">
+    <div
+      id="about"
+      className="p-[2rem] lg:p-[6rem] border-b-[2px] border-b-btn tracking-wider bg-background text-base flex flex-col lg:flex-row lg:justify-between"
+    >
+      <div className=" lg:w-[40%]" data-aos="slide-down">
         {/* <Typewriter
        
         options={{
@@ -50,7 +53,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <img src={image} alt="" className="lg:w-[40%]"  data-aos = "slide-right"/>
+      <img src={image} alt="" className="lg:w-[40%]" data-aos="slide-right" />
     </div>
   );
 };

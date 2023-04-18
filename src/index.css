@@ -20,3 +20,8 @@
     background: #08143d;
     font-family: Anuphan;
   }
+ 
+
+  @layer components{
+    .list { @apply flex flex-col items-center gap-8 bg-white w-[100px] h-[100px] p-3 rounded-md  font-bold text-[12px]}
+  }

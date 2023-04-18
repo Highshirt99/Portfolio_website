@@ -12,22 +12,22 @@ const Skills = () => {
     
   }, [])
   return (
-    <div className='p-12 pb-6 bg-background'>
-                <div className="flex content-center items-center gap-4 my-3">
+    <div className='p-[2rem] lg:p-[6rem] pb-6 bg-background' id = "skills">
+                <div className="flex content-center items-center gap-4 mb-8">
               <div className="w-[50px] h-[4px] bg-body"></div>
               <p   className="text-white font-bold py-2">Skills & Tools</p>
               
           </div>
 
-          <ul className='text-gray-300 grid grid-cols-2 lg:grid-cols-4 gap-6'  data-aos = "slide-up">
-            <li className='flex items-center gap-3' data-aos = "zoom-in"><FaHtml5/> HTML</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"> <FaCss3/> CSS</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"><SiTailwindcss/>Tailwind CSS</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"> <FaSass/>SASS</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"> <FaJs/>JavaScript</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"> <FaReact/> React.js</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"><SiTypescript/>TypeScript</li>
-            <li className='flex items-center gap-3' data-aos = "zoom-in"> <FaGitAlt/>Git & GitHub</li>
+          <ul className='text-black grid grid-cols-2 lg:grid-cols-4 gap-6 '  data-aos = "slide-up">
+            <li className='list' data-aos = "zoom-in"><FaHtml5 className='text-[2rem] text-html'/> HTML</li>
+            <li className='list' data-aos = "zoom-in"> <FaCss3  className='text-[2rem] text-css'/> CSS</li>
+            <li className='list' data-aos = "zoom-in"><SiTailwindcss  className='text-[2rem] text-blue-400'/>Tailwind CSS</li>
+            <li className='list' data-aos = "zoom-in"> <FaSass  className='text-[2rem] text-sass'/>SASS</li>
+            <li className='list' data-aos = "zoom-in"> <FaJs  className='text-[2rem] text-js'/>JavaScript</li>
+            <li className='list' data-aos = "zoom-in"> <FaReact  className='text-[2rem] text-react'/> React.js</li>
+            <li className='list' data-aos = "zoom-in"><SiTypescript  className='text-[2rem] text-ts'/>TypeScript</li>
+            <li className='list' data-aos = "zoom-in"> <FaGitAlt className='text-[2rem] text-git' />Git & GitHub</li>
           </ul>
     </div>
   )
