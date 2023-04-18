@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import  Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { FaBars } from "react-icons/fa";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import NavBarDesktop from "./components/NavBarDesktop";
 
 function App() {
