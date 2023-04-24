@@ -19,7 +19,7 @@ const Skills = () => {
               
           </div>
 
-          <ul className='text-black grid grid-cols-2 lg:grid-cols-4 gap-6 '  data-aos = "slide-up">
+          <ul className='text-black grid grid-cols-2 lg:grid-cols-4 gap-6 ml-6'  data-aos = "slide-up">
             <li className='list' data-aos = "zoom-in"><FaHtml5 className='text-[2rem] text-html'/> HTML</li>
             <li className='list' data-aos = "zoom-in"> <FaCss3  className='text-[2rem] text-css'/> CSS</li>
             <li className='list' data-aos = "zoom-in"><SiTailwindcss  className='text-[2rem] text-blue-400'/>Tailwind CSS</li>

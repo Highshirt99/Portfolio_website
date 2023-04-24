@@ -142,7 +142,7 @@ const Contact = () => {
           <FaGithub />
         </a>
         <a
-          href="https:/linkedin.com/in/aishatomololaakinyemi"
+          href="https://linkedin.com/in/aishatomololaakinyemi"
           className="text-white text-[20px] w-4 hover:text-body"
         >
          

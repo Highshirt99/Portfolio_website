@@ -13,16 +13,23 @@ const NavBar = ({ handleClose }) => {
         />
         <ul className="relative text-blue-700 top-12">
           {options.map((item) => (
-            <Link to={item.link} smooth className="flex items-center justify-start gap-2">
-              <div className="text-[18px] text-white flex justify-center items-center rounded-[50%] p-3 bg-lightBg">{item.icon}</div>
-              <li
-                key={item.name}
+            <li  className="flex items-center justify-start gap-2">
+              <div className="text-[18px] text-white flex justify-center items-center rounded-[50%] p-3 bg-lightBg">
+                {item.icon}
+              </div>
+
+              <Link
+                to={item.link}
+                smooth
+               
+              
                 className="my-8 cursor-pointer hover:bg-lightBg text-[18px]
-                     w-[150px] px-3 py-1 rounded-md font-extrabold hover:text-white"
-              >
-                {item.name}
-              </li>
-            </Link>
+                w-[150px] px-3 py-1 rounded-md font-extrabold hover:text-white"
+                onClick={handleClose}    key={item.name}>
+                    {item.name}
+              </Link>
+          
+            </li>
           ))}
         </ul>
       </div>
