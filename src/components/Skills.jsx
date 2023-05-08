@@ -12,14 +12,14 @@ const Skills = () => {
     
   }, [])
   return (
-    <div className='p-[2rem] lg:p-[6rem] pb-6 bg-background' id = "skills">
-                <div className="flex content-center items-center gap-4 mb-8">
+    <div className='p-[2rem] lg:p-[6rem]  bg-background' id = "skills">
+                <div className="flex items-center content-center gap-4 mb-8">
               <div className="w-[50px] h-[4px] bg-body"></div>
-              <p   className="text-white font-bold py-2">Skills & Tools</p>
+              <p   className="py-2 font-bold text-white">Skills & Tools</p>
               
           </div>
 
-          <ul className='text-black grid grid-cols-2 lg:grid-cols-4 gap-6 ml-6'  data-aos = "slide-up">
+          <ul className='flex flex-wrap items-center justify-center gap-3 text-black lg:gap-5'  data-aos = "slide-up">
             <li className='list' data-aos = "zoom-in"><FaHtml5 className='text-[2rem] text-html'/> HTML</li>
             <li className='list' data-aos = "zoom-in"> <FaCss3  className='text-[2rem] text-css'/> CSS</li>
             <li className='list' data-aos = "zoom-in"><SiTailwindcss  className='text-[2rem] text-blue-400'/>Tailwind CSS</li>
