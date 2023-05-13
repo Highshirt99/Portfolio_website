@@ -11,7 +11,7 @@ import todo from "../assets/todoshot.PNG";
       detail:
         "This is a website that enables users to report lost or found items. Found items can be returned to the rightful owners and vice-versa.",
       tools: ["React.js", "SASS", "Styled-Components"],
-      link: "https://copycat.com",
+      link: "https://copycat.com.ng",
       image: lostfinder
     },
     {
