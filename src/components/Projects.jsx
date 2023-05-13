@@ -1,6 +1,7 @@
 import React from "react";
 import lostfinder from "../assets/lostfinder.PNG";
 import multisteps from "../assets/multishot.PNG";
+import entertainme from "../assets/entertainme.PNG";
 import todo from "../assets/todoshot.PNG";
 
 
@@ -14,6 +15,16 @@ import todo from "../assets/todoshot.PNG";
       link: "https://copycat.com.ng",
       image: lostfinder
     },
+    {
+      name: "Entertain-Me",
+      detail:
+        "This is a website where users can search for movies and tv series, and getting necessary information about them.",
+      tools: ["React.js", "Tailwind CSS", "TypeScript"],
+      link: "https://entertain-me.vercel.app/",
+      image: entertainme
+    },
+
+
     {
       name: "Multi-steps Form",
       detail:
