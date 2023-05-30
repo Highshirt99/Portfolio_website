@@ -20,7 +20,7 @@ const AboutMe = () => {
         
         }}/> */}
         <p className="font-[700] text-white text-[25px]  leading-8">
-          Hi, I'm{" "}
+          Hi, I'm
           <span className="text-body text-[25px] font-bold">Aishat </span>,
           <br /> a<span className="ml-2 text-body ">self-taught</span> front-end
           developer.
@@ -45,7 +45,7 @@ const AboutMe = () => {
             See my work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1t4cysV_6A8L3k0DVuGcOzeG8dpTaHMuU/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1wp43pz_4OyKleRYZ6qfVwFC4MHjY8uDH/view?usp=drive_link"
             className="p-2 cursor-pointer bg-light"
           >
             Download CV
