@@ -45,7 +45,7 @@ const AboutMe = () => {
             See my work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1f9ygpri_0BPfrDVq-7gqwGjJc8aNe00V/view?usp=share_link"
+            href="https://drive.google.com/file/d/1t4cysV_6A8L3k0DVuGcOzeG8dpTaHMuU/view?usp=drivesdk"
             className="p-2 cursor-pointer bg-light"
           >
             Download CV

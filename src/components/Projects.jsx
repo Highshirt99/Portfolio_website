@@ -3,6 +3,7 @@ import lostfinder from "../assets/lostfinder.PNG";
 import multisteps from "../assets/multishot.PNG";
 import entertainme from "../assets/entertainme.PNG";
 import todo from "../assets/todoshot.PNG";
+import dashboard from "../assets/dashboard.PNG";
 
 
  const Projects = () => {
@@ -22,6 +23,14 @@ import todo from "../assets/todoshot.PNG";
       tools: ["React.js", "Tailwind CSS", "TypeScript"],
       link: "https://entertain-me.vercel.app/",
       image: entertainme
+    },
+    {
+      name: "Dashboard",
+      detail:
+        "A dashboard created with next.js.",
+      tools: ["Next.js", "Tailwind CSS"],
+      link: "https://next-js-dashboard-one.vercel.app/",
+      image: dashboard
     },
 
 

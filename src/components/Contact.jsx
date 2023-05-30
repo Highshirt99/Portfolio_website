@@ -6,7 +6,6 @@ import swal from "sweetalert";
 import contact from "../assets/contact.svg";
 import isEmail from "validator/lib/isEmail";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [error, setError] = useState(null);

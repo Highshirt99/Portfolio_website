@@ -16,7 +16,7 @@ module.exports = {
         css: "#264de4",
         ts: "#007acc",
         react: "#61DBFB",
-        git: "#F1502F"
+        git: "#F1502F",
       },
       fontFamily: {
         bodyFont: ["Anuphan", "sans-serif"]

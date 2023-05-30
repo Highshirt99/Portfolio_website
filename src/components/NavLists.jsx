@@ -1,5 +1,5 @@
 import { AiFillContacts } from "react-icons/ai";
-import { FaCode, FaInfo, FaTools, FaUser } from "react-icons/fa";
+import { FaCode,  FaTools, FaUser } from "react-icons/fa";
 
 export const options = [
     {

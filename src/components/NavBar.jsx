@@ -5,7 +5,7 @@ import { options } from "./NavLists";
 
 const NavBar = ({ handleClose }) => {
   return (
-    <div className="z-[1000000] lg:hidden bg-white min-h-screen w-[60%] md:w-[30%]  p-4 text-[1.5rem] fixed top-0 bottom-0 left-0 ">
+    <div className="z-[1000000] lg:hidden  bg-white min-h-screen w-[60%] md:w-[30%]  p-4 text-[1.5rem] fixed top-0 bottom-0 left-0">
       <div className="relative">
         <AiOutlineClose
           onClick={handleClose}
@@ -13,7 +13,7 @@ const NavBar = ({ handleClose }) => {
         />
         <ul className="relative text-blue-700 top-12">
           {options.map((item) => (
-            <li  className="flex items-center justify-start gap-2">
+            <li className="flex items-center justify-start gap-2">
               <div className="text-[18px] text-white flex justify-center items-center rounded-[50%] p-3 bg-lightBg">
                 {item.icon}
               </div>
@@ -21,14 +21,13 @@ const NavBar = ({ handleClose }) => {
               <Link
                 to={item.link}
                 smooth
-               
-              
                 className="my-8 cursor-pointer hover:bg-lightBg text-[18px]
                 w-[150px] px-3 py-1 rounded-md font-extrabold hover:text-white"
-                onClick={handleClose}    key={item.name}>
-                    {item.name}
+                onClick={handleClose}
+                key={item.name}
+              >
+                {item.name}
               </Link>
-          
             </li>
           ))}
         </ul>
