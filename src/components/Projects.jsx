@@ -4,6 +4,7 @@ import multisteps from "../assets/multishot.PNG";
 import entertainme from "../assets/entertainme.PNG";
 import todo from "../assets/todoshot.PNG";
 import dashboard from "../assets/dashboard.PNG";
+import comments from "../assets/comments.PNG";
 
 
  const Projects = () => {
@@ -25,22 +26,30 @@ import dashboard from "../assets/dashboard.PNG";
       image: entertainme
     },
     {
+      name: "Interactive Comments Section",
+      detail:
+      "This is a CRUD application that allows users to add, edit, delete and like comments.",
+      tools: ["Next.js", "Redux-toolkit", "TypeScript", "Tailwind CSS"],
+      link: "https://commentsSection.vercel.app",
+      image: comments
+    },
+    
+    
+    {
+      name: "Multi-steps Form",
+      detail:
+      "A game subscription form, with different steps. It shows the summary of your choices at the end.",
+      tools: ["React.js", "Redux-toolkit", "Tailwind CSS"],
+      link: "https://subscription-form-multi-steps.vercel.app",
+      image: multisteps
+    },
+    {
       name: "Dashboard",
       detail:
         "A dashboard created with next.js.",
       tools: ["Next.js", "Tailwind CSS"],
       link: "https://next-js-dashboard-one.vercel.app/",
       image: dashboard
-    },
-
-
-    {
-      name: "Multi-steps Form",
-      detail:
-        "A game subscription form, with different steps. It shows the summary of your choices at the end.",
-      tools: ["React.js", "Redux-toolkit", "Tailwind CSS"],
-      link: "https://subscription-form-multi-steps.vercel.app",
-      image: multisteps
     },
     {
       name: "Todo",
