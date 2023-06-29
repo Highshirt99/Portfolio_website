@@ -21,7 +21,7 @@ const AboutMe = () => {
         }}/> */}
         <p className="font-[700] text-white text-[25px]  leading-8">
           Hi, I'm
-          <span className="text-body text-[25px] font-bold ml-[2px]">Aishat </span>,
+          <span className="text-body text-[25px] font-bold ml-[10px]">Aishat </span>,
           <br /> a<span className="ml-2 text-body ">self-taught</span> front-end
           developer.
         </p>
