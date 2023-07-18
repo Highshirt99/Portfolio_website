@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import {FaCss3, FaGitAlt, FaHtml5, FaJs, FaReact, FaSass} from "react-icons/fa"
 import { SiTypescript, SiTailwindcss} from "react-icons/si"
-import {TbBrandNextjs} from "react-icons/tb"
+import {TbBrandFirebase, TbBrandNextjs} from "react-icons/tb"
 import AOS from 'aos'
 import "aos/dist/aos.css"
 
@@ -29,6 +29,7 @@ const Skills = () => {
             <li className='list' data-aos = "zoom-in"> <FaReact  className='text-[2rem] text-react'/> React.js</li>
             <li className='list' data-aos = "zoom-in"><SiTypescript  className='text-[2rem] text-ts'/>TypeScript</li>
             <li className='list' data-aos = "zoom-in"><TbBrandNextjs  className='text-[2rem] text-black'/>Next.js</li>
+            <li className='list' data-aos = "zoom-in"><TbBrandFirebase  className='text-[2rem] text-yellow-400'/>Firebase</li>
             <li className='list' data-aos = "zoom-in"> <FaGitAlt className='text-[2rem] text-git' />Git & GitHub</li>
           </ul>
     </div>
