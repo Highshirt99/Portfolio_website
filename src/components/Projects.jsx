@@ -75,11 +75,11 @@ const Projects = () => {
         Hand-picked projects for you to see.
       </p>
 
-      <div className="flex flex-col gap-[45px] mt-8">
+      <div className="flex flex-col gap-[4rem] mt-8">
         {projects.map((project) => (
           <div
             key={project.image}
-            className="flex flex-col gap-6 text-white lg:flex-row lg:justify-between"
+            className="flex flex-col gap-[50px] lg:gap-12 text-white lg:flex-row lg:justify-between"
             data-aos="slide-up"
           >
             <div className="flex flex-col gap-2">
@@ -87,7 +87,7 @@ const Projects = () => {
                 {project.name}
               </h5>
               <p className="text-gray-300 lg:w-3/4">{project.detail}</p>
-              <p className="border-b-[5px] pb-1 border-b-btn w-fit">Tools</p>
+              <p className="border-b-[5px] pb-1 mt-4 border-b-btn w-fit">Tools</p>
               <ul>
                 {project.tools.map((item) => (
                   <li key={item} className="my-3 text-gray-300">
@@ -103,7 +103,7 @@ const Projects = () => {
               </a>
             </div>
             <img
-              className="w-[200px] h-[100px] lg:min-w-[300px] lg:w-[300px] lg:h-[150px] rounded-[10px] object-cover"
+              className="w-[200px]  h-[100px] lg:min-w-[300px] lg:w-[300px] lg:h-[150px] rounded-[10px] object-cover"
               src={project.image}
               alt=""
             />

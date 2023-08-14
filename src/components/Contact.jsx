@@ -63,7 +63,7 @@ const Contact = () => {
   };
   return (
     <div id = "contact" className="p-[2rem] lg:p-[6rem] bg-background relative">
-      <div className="flex items-center content-center gap-4 mt-3">
+      <div className="flex items-center content-center gap-4 mt-1">
         <div className="w-[50px] h-[4px] bg-body"></div>
         <p className="py-2 font-bold text-white">Contact me</p>
       </div>
