@@ -55,7 +55,7 @@ const Projects = () => {
       name: "Shopping Cart",
       detail:
         "A responsive react shopping cart, including product catalogue and cart management, amongst other features.",
-      tools: ["React.js", "Context API", "Tailwind CSS"],
+      tools: ["React.js", "TypeScript", "Context API", "Tailwind CSS"],
       link: "https://react-shopping-cart-rose.vercel.app/",
       image: shop,
     },
