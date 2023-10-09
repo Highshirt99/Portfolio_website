@@ -6,6 +6,7 @@ import todo from "../assets/todoshot.PNG";
 import dashboard from "../assets/dashboard.PNG";
 import comments from "../assets/comments.PNG";
 import jollyplanner from "../assets/jollyplanner.PNG";
+import shop from "../assets/shop.PNG"
 
 const Projects = () => {
   const projects = [
@@ -49,6 +50,14 @@ const Projects = () => {
       tools: ["React.js", "Redux-toolkit", "Tailwind CSS"],
       link: "https://subscription-form-multi-steps.vercel.app",
       image: multisteps,
+    },
+    {
+      name: "Shopping Cart",
+      detail:
+        "A responsive react shopping cart, including product catalogue and cart management, amongst other features.",
+      tools: ["React.js", "Context API", "Tailwind CSS"],
+      link: "https://react-shopping-cart-rose.vercel.app/",
+      image: shop,
     },
     {
       name: "Dashboard",
