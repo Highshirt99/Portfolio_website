@@ -6,7 +6,8 @@ import todo from "../assets/todoshot.PNG";
 import dashboard from "../assets/dashboard.PNG";
 import comments from "../assets/comments.PNG";
 import jollyplanner from "../assets/jollyplanner.PNG";
-import shop from "../assets/shop.PNG"
+import shop from "../assets/shop.PNG";
+import kanban from "../assets/kanban.PNG";
 
 const Projects = () => {
   const projects = [
@@ -19,12 +20,18 @@ const Projects = () => {
       image: lostfinder,
     },
     {
-      name: "Entertain-Me",
+      name: "Kanban Task Management Application",
       detail:
-        "This is a website where users can search for movies and tv series, and getting necessary information about them.",
-      tools: ["React.js", "Tailwind CSS", "TypeScript"],
-      link: "https://entertain-me.vercel.app/",
-      image: entertainme,
+        `A task management application that implements the kanban method. It allows users to create, edit, delete and move tasks between columns.
+         Switching between light and dark mode  and draggng and dropping are also possible.`,
+      tools: [
+        "Next.js",
+        "Tailwind CSS",
+        "React-hook-forms",
+        "React-Beautiful-dnd",
+      ],
+      link: "https://task-management-app-aishat.vercel.app/",
+      image: kanban,
     },
     {
       name: "Interactive Comments Section",
@@ -34,7 +41,14 @@ const Projects = () => {
       link: "https://commentsSection.vercel.app",
       image: comments,
     },
-
+    {
+      name: "Entertain-Me",
+      detail:
+        "This is a website where users can search for movies and tv series, and getting necessary information about them.",
+      tools: ["React.js", "Tailwind CSS", "TypeScript"],
+      link: "https://entertain-me.vercel.app/",
+      image: entertainme,
+    },
     {
       name: "Jollyplanner",
       detail:
@@ -70,7 +84,7 @@ const Projects = () => {
       name: "Todo",
       detail: "A simple todo application with light and dark themes.",
       tools: ["React.js", "Tailwind CSS", "Redux-Toolkit"],
-      link: "https://todo-app-redux-toolkit-opal.vercel.app",
+      link: "https://todo-app-redux-toolkit-opal.vercel.app/",
       image: todo,
     },
   ];
@@ -96,7 +110,9 @@ const Projects = () => {
                 {project.name}
               </h5>
               <p className="text-gray-300 lg:w-3/4">{project.detail}</p>
-              <p className="border-b-[5px] pb-1 mt-4 border-b-btn w-fit">Tools</p>
+              <p className="border-b-[5px] pb-1 mt-4 border-b-btn w-fit">
+                Tools
+              </p>
               <ul>
                 {project.tools.map((item) => (
                   <li key={item} className="my-3 text-gray-300">
