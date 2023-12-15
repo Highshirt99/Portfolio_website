@@ -28,6 +28,7 @@ const Projects = () => {
         "Next.js",
         "Tailwind CSS",
         "React-hook-forms",
+        "Redux-toolkit",
         "React-Beautiful-dnd",
       ],
       link: "https://task-management-app-aishat.vercel.app/",
