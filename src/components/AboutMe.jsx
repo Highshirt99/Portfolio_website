@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 import image from "../assets/about.svg";
-// import Typewriter from "typewriter-effect";
 
 const AboutMe = () => {
   return (
@@ -10,18 +9,12 @@ const AboutMe = () => {
       className="p-[2rem] lg:p-[6rem] border-b-[2px] border-b-btn tracking-wider bg-background text-base flex flex-col lg:flex-row lg:justify-between"
     >
       <div className=" lg:w-[40%]" data-aos="slide-down">
-        {/* <Typewriter
-       
-        options={{
-          autoStart: true,
-          loop: true,
-          delay: 50,
-          // strings: ["I am Aishat", "A frontend developer",  ]
-        
-        }}/> */}
         <p className="font-[700] text-white text-[25px]  leading-8">
           Hi, I'm
-          <span className="text-body text-[25px] font-bold ml-[10px]">Aishat </span>,
+          <span className="text-body text-[25px] font-bold ml-[10px]">
+            Aishat{" "}
+          </span>
+          ,
           <br /> a<span className="ml-2 text-body ">self-taught</span> front-end
           developer.
         </p>
@@ -41,12 +34,12 @@ const AboutMe = () => {
         </p>
 
         <div className="flex gap-5 py-6 text-sm text-white">
-          <Link to="projects" smooth className="p-2 cursor-pointer bg-btn">
+          <Link to="projects" smooth className="p-2 cursor-pointer bg-btn rounded-md">
             See my work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1wp43pz_4OyKleRYZ6qfVwFC4MHjY8uDH/view?usp=drive_link"
-            className="p-2 cursor-pointer bg-light"
+            href="https://docs.google.com/document/d/1bqGGI1nRUfSt1ux_ellMoc-zUyEB32f3MaWpqgFN6Dk/edit#heading=h.yu8wov644s7"
+            className="p-2 cursor-pointer bg-light rounded-md"
           >
             Download CV
           </a>
