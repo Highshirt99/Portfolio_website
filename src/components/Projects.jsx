@@ -2,12 +2,12 @@ import React from "react";
 import lostfinder from "../assets/lostfinder.PNG";
 import multisteps from "../assets/multishot.PNG";
 import entertainme from "../assets/entertainme.PNG";
-import todo from "../assets/todoshot.PNG";
 import dashboard from "../assets/dashboard.PNG";
 import comments from "../assets/comments.PNG";
 import jollyplanner from "../assets/jollyplanner.PNG";
 import shop from "../assets/shop.PNG";
 import kanban from "../assets/kanban.PNG";
+import blog from "../assets/blog.PNG";
 
 const Projects = () => {
   const projects = [
@@ -18,6 +18,20 @@ const Projects = () => {
       tools: ["React.js", "SASS", "Styled-Components"],
       link: "https://lostfinder.com.ng",
       image: lostfinder,
+    },
+    {
+      name: "Ehya Blog Site",
+      detail:
+        `A blog website that has numerous features, such as an admin panel that involves the creation of posts and management of all activities by the admin. Also, uploading pictures, commenting on posts.`,
+      tools: [
+        "React.js",
+        "Tailwind CSS",
+        "React-hook-forms",
+        "Redux-toolkit",
+        "Tanstack query",
+      ],
+      link: "https://blogitt.vercel.app/",
+      image: blog,
     },
     {
       name: "Kanban Task Management Application",
@@ -34,6 +48,7 @@ const Projects = () => {
       link: "https://task-management-app-aishat.vercel.app/",
       image: kanban,
     },
+
     {
       name: "Interactive Comments Section",
       detail:
@@ -80,15 +95,8 @@ const Projects = () => {
       tools: ["Next.js", "Tailwind CSS"],
       link: "https://next-js-dashboard-one.vercel.app/",
       image: dashboard,
-    },
-    {
-      name: "Todo",
-      detail: "A simple todo application with light and dark themes.",
-      tools: ["React.js", "Tailwind CSS", "Redux-Toolkit"],
-      link: "https://todo-app-redux-toolkit-opal.vercel.app/",
-      image: todo,
-    },
-  ];
+    }
+  ]
   return (
     <div id="projects" className="p-[2rem] lg:p-[6rem] bg-lightBg">
       <div className="flex items-center content-center gap-4 my-3">
