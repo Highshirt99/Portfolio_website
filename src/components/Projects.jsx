@@ -8,36 +8,28 @@ import jollyplanner from "../assets/jollyplanner.PNG";
 import shop from "../assets/shop.PNG";
 import kanban from "../assets/kanban.PNG";
 import blog from "../assets/blog.PNG";
+import finance from "../assets/finance.PNG";
 
 const Projects = () => {
   const projects = [
     {
-      name: "Lostfinder",
+      name: "Finance Management Application",
       detail:
-        "This is a website that enables users to report lost or found items. Found items can be returned to the rightful owners and vice-versa.",
-      tools: ["React.js", "SASS", "Styled-Components"],
-      link: "https://lostfinder.com.ng",
-      image: lostfinder,
-    },
-    {
-      name: "Ehya Blog Site",
-      detail:
-        `A blog website that has numerous features, such as an admin panel that involves the creation of posts and management of all activities by the admin. Also, uploading pictures, commenting on posts.`,
+        "A web app that helps users track income, expenses, and savings goals. It offers budgeting tools, transaction categorization, and financial insights, providing an intuitive way to manage personal finances.",
       tools: [
-        "React.js",
-        "Tailwind CSS",
-        "React-hook-forms",
-        "Redux-toolkit",
-        "Tanstack query",
+        "Next.js",
+        "Tailwind.css",
+        "Redux Toolkit",
+        "Express.js",
+        "Shadcn",
       ],
-      link: "https://blogitt.vercel.app/",
-      image: blog,
+      link: "https://finance-tau-one.vercel.app/",
+      image: finance,
     },
     {
       name: "Kanban Task Management Application",
-      detail:
-        `A task management application that implements the kanban method. It allows users to create, edit, delete and move tasks between columns.
-         Switching between light and dark mode  and draggng and dropping are also possible.`,
+      detail: `A task management application that implements the kanban method. It allows users to create, edit, delete and move tasks between columns.
+      Switching between light and dark mode  and draggng and dropping are also possible.`,
       tools: [
         "Next.js",
         "Tailwind CSS",
@@ -49,6 +41,19 @@ const Projects = () => {
       image: kanban,
     },
 
+    {
+      name: "Ehya Blog Site",
+      detail: `A blog website that has numerous features, such as an admin panel that involves the creation of posts and management of all activities by the admin. Also, uploading pictures, commenting on posts.`,
+      tools: [
+        "React.js",
+        "Tailwind CSS",
+        "React-hook-forms",
+        "Redux-toolkit",
+        "Tanstack query",
+      ],
+      link: "https://blogitt.vercel.app/",
+      image: blog,
+    },
     {
       name: "Interactive Comments Section",
       detail:
@@ -73,6 +78,15 @@ const Projects = () => {
       link: "https://jollyplanner.vercel.app",
       image: jollyplanner,
     },
+
+    {
+      name: "Lostfinder",
+      detail:
+        "This is a website that enables users to report lost or found items. Found items can be returned to the rightful owners and vice-versa.",
+      tools: ["React.js", "SASS", "Styled-Components"],
+      link: "https://lostfinder.com.ng",
+      image: lostfinder,
+    },
     {
       name: "Multi-steps Form",
       detail:
@@ -95,8 +109,8 @@ const Projects = () => {
       tools: ["Next.js", "Tailwind CSS"],
       link: "https://next-js-dashboard-one.vercel.app/",
       image: dashboard,
-    }
-  ]
+    },
+  ];
   return (
     <div id="projects" className="p-[2rem] lg:p-[6rem] bg-lightBg">
       <div className="flex items-center content-center gap-4 my-3">
