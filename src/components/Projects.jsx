@@ -105,7 +105,7 @@ const Projects = () => {
     },
     {
       name: "Dashboard",
-      detail: "A dashboard created with next.js.",
+      detail: "A dashboard created with next.js",
       tools: ["Next.js", "Tailwind CSS"],
       link: "https://next-js-dashboard-one.vercel.app/",
       image: dashboard,
