@@ -38,7 +38,7 @@ const AboutMe = () => {
             See my work
           </Link>
           <a
-            href="https://docs.google.com/document/d/1bqGGI1nRUfSt1ux_ellMoc-zUyEB32f3MaWpqgFN6Dk/edit#heading=h.yu8wov644s7"
+            href="https://docs.google.com/document/d/1tQNrVxZyCnkhc62m39RShOs8C2BYMmswFZ-hvh_NwPc/edit?tab=t.0#heading=h.v9nuoc7b7f3g"
             className="p-2 cursor-pointer bg-light rounded-md"
           >
             Download CV
